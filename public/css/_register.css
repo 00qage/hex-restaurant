@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.section-register {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.section-register-title {
+  text-align: center; }
+  .section-register-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D1101; }
+
+.section-register-box {
+  width: 270px;
+  height: 240px;
+  margin-top: 35px;
+  padding: 15px;
+  text-align: center;
+  border-top: 3px solid #FF5E45;
+  background: #EFE9E7;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16); }
+  .section-register-box h1 {
+    margin: 0 auto 16px auto;
+    font-weight: bold; }
+  .section-register-box form {
+    text-align: left;
+    font-size: 16px;
+    color: #3D1101; }
+    .section-register-box form input {
+      width: 261px;
+      height: 28px;
+      padding-left: 9px;
+      background: #FFFFFF;
+      border: 1px solid #CCCCCC;
+      -webkit-box-shadow: inset 0px 1px 0px 0px #ECECEC;
+      box-shadow: inset 0px 1px 0px 0px #ECECEC;
+      border-radius: 3px; }
+    .section-register-box form h3 {
+      margin: 3.5px auto 30px auto;
+      font-size: 14px;
+      color: #FF5E45; }
+    .section-register-box form .Email-icon {
+      margin: 3px 0 15px 0;
+      font-size: 15px;
+      font-family: FontAwesome, 微軟正黑體;
+      color: rgba(61, 17, 0, 0.5); }
+    .section-register-box form .password-icon {
+      margin: 3px 0 12px 0;
+      font-size: 15px;
+      font-family: FontAwesome, 微軟正黑體;
+      color: rgba(61, 17, 0, 0.5); }
+    .section-register-box form .section-register-box-input input {
+      width: 125px;
+      height: 32px;
+      border: none;
+      border-radius: 3px;
+      font-size: 14px;
+      color: #FFFFFF; }
+    .section-register-box form .section-register-box-input input.register {
+      float: left;
+      background: rgba(0, 0, 0, 0.35); }
+    .section-register-box form .section-register-box-input input.login {
+      float: right;
+      background: #F56C23; }

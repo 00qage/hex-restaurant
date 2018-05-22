@@ -1,0 +1,121 @@
+<%- layout('layout') %>
+
+    <section>
+        <div class="section-point">
+            <div class="section-point-title">
+                <h2 class="section-point-title-h2">客人總是在詢問
+                    <br>這麼好吃的秘訣是什麼</h2>
+            </div>
+            <div class="section-point-content">
+                <div class="section-point-content-box">
+                    <div class="section-point-content-box-imgbox">
+                        <img src="./css/images/feature_1.png" alt="vegetables">
+                    </div>
+                    <h3>台灣本土蔬菜</h3>
+                    <p>In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit
+                        eget elit facilisis tristique. Nam vel iaculis mauris.</p>
+                </div>
+                <div class="section-point-content-box">
+                    <div class="section-point-content-box-imgbox">
+                        <img src="./css/images/feature_2.png" alt="chef">
+                    </div>
+                    <h3>專業米其林廚師</h3>
+                    <p>Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit, eu bibendum
+                        nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.</p>
+                </div>
+                <div class="section-point-content-box">
+                    <div class="section-point-content-box-imgbox">
+                        <img src="./css/images/feature_3.png" alt="profession">
+                    </div>
+                    <h3>對於專業不能退讓</h3>
+                    <p>Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis,
+                        facilisis accumsan turpis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section-todychef">
+            <div class="section-todychef-imgbox">
+                <!-- <img src="./css/images/main_chef_brown.png" alt=""> -->
+            </div>
+            <div class="section-todychef-content">
+                <h2>今日主廚：帕金森、梅在帕</h2>
+                <h3>Tody Chef: Plum in Shock</h3>
+                <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit
+                    elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies
+                    sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum. Aliquam eget odio
+                    sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet
+                    ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum. Donec
+                    congue lorem a molestie bibendum.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="section-guestsrating">
+            <h2>聽聽別人的感想</h2>
+            <div class="section-guestrating-content">
+                <div class="section-guestrating-content-box">
+                    <div class="section-guestrating-content-box-imgbox">
+                        <img src="./css/images/avatar_1.png" alt="guest">
+                    </div>
+                    <div class="section-guestrating-content-box-articlebox">
+                        <h3>高雄一口吃</h3>
+                        <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+                        <h4> -- 產品經理</h4>
+                    </div>
+                </div>
+                <div class="section-guestrating-content-box">
+                    <div class="section-guestrating-content-box-imgbox">
+                        <img src="./css/images/avatar_2.png" alt="guest">
+                    </div>
+                    <div class="section-guestrating-content-box-articlebox">
+                        <h3>廟口小霸王</h3>
+                        <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+                        <h4> -- 金身道士</h4>
+                    </div>
+                </div>
+                <div class="section-guestrating-content-box">
+                    <div class="section-guestrating-content-box-imgbox">
+                        <img src="./css/images/avatar_3.png" alt="guest">
+                    </div>
+                    <div class="section-guestrating-content-box-articlebox">
+                        <h3>春天也來了</h3>
+                        <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+                        <h4> -- 美麗萬分</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-address">
+            <h2>我們的位置不太夠坐
+                <br>要不要先定位呢？</h2>
+            <div class="section-address-content">
+                <div class="section-address-content-map">
+                    <img src="./css/images/Map.png" alt="map">
+                </div>
+                <div class="section-address-content-input">
+                    <form action="/post" method="post"/>
+                        <input type="hidden" name="_csrf" id="_csrf" value="<%= csrfToken %>"/>
+                        <label for="person">姓名：</label>
+                        <input type="text" placeholder="請輸入姓名" id="person" name="person" value=""/>
+                        <label for="phone">電話：</label>
+                        <input type="text" placeholder="請輸入電話號碼" id="phone" name="phone" value=""/>
+                        <label for="mail">信箱：</label>
+                        <input type="text" placeholder="請輸入電子郵件"  id="mail" name="mail" value=""/>
+                        <label for="
+                            Number of people
+                            ">人數：</label>
+                        <input id="NumberOfpeople" type="text" placeholder="" name="NumberOfpeople"/>
+                        <div class="section-address-content-input-Vegetarian">
+                            是否需要素食
+                            <br> 否
+                            <input class="input-yesno" type="radio" name="Vegetarian" id="Vegetarian" value="no"/> 是
+                            <input class="input-yesno" type="radio" name="Vegetarian" id="Vegetarian" value="yes"/>
+                            <input class="input-submit" type="submit" id="send" value="送出"/>
+                            <input class="input-reset" type="reset" value="取消">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="./js/AJAXmail.js"></script>

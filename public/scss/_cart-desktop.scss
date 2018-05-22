@@ -1,0 +1,224 @@
+@import "grid";
+.section-cart {
+    padding: 50px 42px 50-30px 42px;
+    // display: flex;
+    // // flex-wrap: wrap;
+    // flex-direction: row;
+    // justify-content: space-between;
+    @include pad{
+    }
+    @include iphone{
+        padding: 50px 10px 50-30px 10px;
+    }
+}
+
+.section-cart-list {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+    // align-self: stretch;
+    @include pad{
+    }
+    @include iphone{
+        max-width: 100%;
+        width: 375px;
+    }
+    i {
+        margin-right: 10px;
+        font-size: 32px;
+        color: #3D1101;
+        line-height: 32px;
+    }
+    h1 {
+        display: inline-block;
+        font-size: 20px;
+        color: #3D1101;
+        line-height: 32px;
+    }
+    ul {
+        margin-top: 15px;
+    }
+    li {
+        border-bottom: 1px solid #3D1101;
+        a {
+            display: block;
+            max-width: 100%;
+            height: 35px;
+            padding-left: 6px;
+            padding-right: auto;
+            font-size: 16px;
+            color: #3D1101;
+            line-height: 32px;
+        }
+        a:hover {
+            color: #FFFFFF;
+            background: #3D1101;
+        }
+    }
+}
+
+.section-cart-imagelist {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+}
+
+.section-cart-imagelist-search {
+    // width: 460-50px;
+    // position: relative
+}
+
+.searchTerm {
+    display: block;
+    float: left;
+    width: 460-50px;
+    border: 2px solid #3D1101;
+    padding: 5px;
+    height: 18px; // border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+    @include pad{
+        max-width: 50%;
+    }
+    @include iphone{
+        max-width: 85%;
+        margin-top: 20px;
+    }
+}
+
+.searchbutton {
+    display: block;
+    float: left;
+    // position: absolute;
+    // right: 1px;
+    width: 36px;
+    height: 32px;
+    border: 1px solid #3D1101;
+    background: #3D1101;
+    text-align: center;
+    color: #fff; // border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    @include pad{
+
+    }
+    @include iphone{
+        margin-top: 20px;
+    }
+}
+
+.section-cart-imagelist-gotocart {
+    float: right;
+    margin-left: 100px;
+    @include pad{
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+    @include iphone{
+        margin-right: 3%;
+        margin-top: 15px;
+    }
+    a{
+    font-size: 16px;
+    color: #3D1101;
+    }
+    h3{
+        position: relative;
+        display: inline-block;
+        &:after{
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 14px;
+            background:  #3D1101;
+            margin-right: 17px;
+            margin-left: 12px;
+            // -webkit-transform: translateY(-50%);
+            // -ms-transform: translateY(-50%);
+            // transform: translateY(-50%);
+        }
+    }
+    .gotocart-icon{
+        // display: inline-block;
+        margin-left: 32px;
+        font-size: 29px;
+        @include pad{
+        }
+        @include iphone{
+            font-size: 32px;
+        }
+    }  
+}
+
+.section-cart-imagelist-list{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 700px;
+    // margin:26px -5px 0 -5px;
+    margin-top: 26px;
+    @include pad{
+        max-width: 100%;
+    }
+    @include iphone{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.section-cart-imagelist-list-box{
+    width: 220px;
+    height: 280px;
+    margin-bottom: 30px;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    text-align: center;
+    @include pad{
+    }
+    @include iphone{
+        width: 300px;
+    }
+    img{
+        max-width: 100%;
+        height: 120px;
+    }
+    h2{
+        margin-top: 14.5px;
+        font-size: 20px;
+        color: #3D1101;
+    }
+    h4{
+        margin-top: 4px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: #3D1101;
+    }
+    hr{
+        width: 91px;
+        border: 1px solid #3D1101;
+    }
+    h3{
+        margin-top: 20px;
+        font-family: Roboto Light;
+        font-weight: bold;
+        font-size: 20px;
+        color: #3D1101;
+    }
+    button{
+        font-family: 微軟正黑體;
+        width: 200px;
+        height: 28px;
+        margin-top: 13px;
+        border: 2px solid #FF5E45;
+        border-radius: 3px;
+        background: #EFE9E7;
+        font-size: 16px;
+        color: #FF5E45;
+        i{
+            margin-right: 9px;
+            font-size: 15px;
+            color: #FF5E45;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+<%- layout('layout') %>
+        <section>
+            <div class="section-cart">
+                <div class="section-cart-list">
+                    <i class="fa fa-leaf" aria-hidden="true"></i>
+                    <h1>線上訂購美食</h1>
+                    <ul id="cartlist">
+                        <li>
+                        <a href="#" value="">全部 (23)</a>
+                        </li>
+                        <li>
+                        <a href="#" value="fries">只愛吃薯條 (18)</a>
+                        </li>
+                        <li>
+                            <a href="#" value="hot">加熱就可食 (1)</a>
+                        </li>
+                        <li>
+                            <a href="#" value="hamburger">不敗漢堡系列 (4)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-cart-imagelist-search">
+                    <input class="searchTerm" type="text" placeholder="">
+                    <button class="searchbutton" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="section-cart-imagelist-gotocart">
+                    <a href="#">
+                        <h3>結帳去</h3>
+                    </a>
+                    <a class="gotocart-icon" href="#">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <ul class="section-cart-imagelist-list" id="list">
+                       
+                    </ul>
+                
+                <div class="clearfix"></div>
+            </div>
+
+       </section>
+       <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+       <script>
+         // Initialize Firebase
+         var config = {
+           apiKey: "AIzaSyD5DOPAkwvouPveyoIPoyUaB-fvRhmX_fQ",
+           authDomain: "project-8fdae.firebaseapp.com",
+           databaseURL: "https://project-8fdae.firebaseio.com",
+           projectId: "project-8fdae",
+           storageBucket: "project-8fdae.appspot.com",
+           messagingSenderId: "886236257267"
+         };
+         firebase.initializeApp(config);
+       </script>
+       <script src="./js/firebaseMenu.js"></script>
+
+ 

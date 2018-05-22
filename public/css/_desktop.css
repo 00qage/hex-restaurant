@@ -1,0 +1,328 @@
+.section-point {
+  padding: 50px 62px; }
+  @media (max-width: 768px) {
+    .section-point {
+      padding: 50px 30px; } }
+
+.section-point-title {
+  margin: 0 auto;
+  height: 64px;
+  text-align: center; }
+  .section-point-title h2 {
+    font-size: 20px;
+    color: #3D1101;
+    line-height: 32px; }
+
+.section-point-title-h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 200px; }
+  @media (max-width: 768px) {
+    .section-point-title-h2 {
+      padding: 0 100px; } }
+  @media (max-width: 568px) {
+    .section-point-title-h2 {
+      display: block;
+      padding: 0; } }
+  .section-point-title-h2:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    content: "";
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: none;
+    margin: 0 1.5rem;
+    border-top: 1px solid #979797; }
+    @media (max-width: 568px) {
+      .section-point-title-h2:after {
+        display: none; } }
+  .section-point-title-h2:before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    content: "";
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: none;
+    margin: 0 1.5rem;
+    border-top: 1px solid #979797; }
+    @media (max-width: 568px) {
+      .section-point-title-h2:before {
+        display: none; } }
+
+.section-point-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  @media (max-width: 568px) {
+    .section-point-content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+.section-point-content-box {
+  text-align: center;
+  margin-top: 30px;
+  width: 262px; }
+  @media (max-width: 768px) {
+    .section-point-content-box {
+      width: 196px; } }
+  @media (max-width: 568px) {
+    .section-point-content-box {
+      width: 260px; } }
+  .section-point-content-box img {
+    border-radius: 50%; }
+  .section-point-content-box h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #3D1101; }
+  .section-point-content-box p {
+    margin-top: 11px;
+    text-align: justify;
+    font-size: 16px;
+    color: #3D1101;
+    line-height: 20px; }
+    @media (max-width: 768px) {
+      .section-point-content-box p {
+        text-align: left; } }
+
+.section-todychef {
+  padding: 0 2.5%;
+  height: 460px;
+  background: #3D1101; }
+  @media (max-width: 768px) {
+    .section-todychef {
+      padding: 0 11px; } }
+  @media (max-width: 568px) {
+    .section-todychef {
+      padding: 0;
+      height: 900px; } }
+
+.section-todychef-imgbox {
+  float: left;
+  background: url("http://hotsai.com/RWD_SIX/images/main_chef_brown.png") no-repeat;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-size: cover;
+  width: 50%;
+  height: 100%; }
+  @media (max-width: 768px) {
+    .section-todychef-imgbox {
+      background-position: 95% 0; } }
+  @media (max-width: 568px) {
+    .section-todychef-imgbox {
+      margin-right: 0;
+      width: 100%;
+      height: 50%; } }
+
+.section-todychef-content {
+  float: left;
+  width: 45%;
+  margin-top: 81px;
+  margin-left: 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .section-todychef-content h2 {
+    font-size: 20px;
+    color: #EFE9E7; }
+  .section-todychef-content h3 {
+    margin-top: 8.5px;
+    font-size: 16px;
+    color: #EFE9E7; }
+  .section-todychef-content p {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #EFE9E7;
+    line-height: 21px; }
+  @media (max-width: 568px) {
+    .section-todychef-content {
+      width: 90%;
+      margin-top: 30px; } }
+
+.section-guestsrating {
+  padding: 50px 42px; }
+  @media (max-width: 768px) {
+    .section-guestsrating {
+      padding: 50px 10px; } }
+  .section-guestsrating h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #3D1101; }
+
+.section-guestrating-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 32px; }
+  @media (max-width: 568px) {
+    .section-guestrating-content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+.section-guestrating-content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.section-guestrating-content-box-imgbox {
+  margin-right: 13px; }
+  .section-guestrating-content-box-imgbox img {
+    border-radius: 50%; }
+
+.section-guestrating-content-box-articlebox h3 {
+  margin-top: 21.5px;
+  font-size: 18px;
+  color: #3D1101; }
+
+.section-guestrating-content-box-articlebox p {
+  margin-top: 20px;
+  width: 220px;
+  font-size: 16px;
+  color: #3D1101;
+  line-height: 24px; }
+  @media (max-width: 768px) {
+    .section-guestrating-content-box-articlebox p {
+      width: 155px; } }
+
+.section-guestrating-content-box-articlebox h4 {
+  text-align: right;
+  margin-top: 16px;
+  font-size: 16px;
+  color: rgba(61, 17, 0, 0.75);
+  line-height: 24px; }
+
+.section-address {
+  padding: 50px 42px;
+  background: rgba(250, 250, 250, 0.7); }
+  @media (max-width: 768px) {
+    .section-address {
+      padding: 50px 10px; } }
+  .section-address h2 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3D1101; }
+
+.section-address-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 38px; }
+  @media (max-width: 568px) {
+    .section-address-content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+  .section-address-content img {
+    width: 460px;
+    height: 386px;
+    margin-right: 20px; }
+    @media (max-width: 768px) {
+      .section-address-content img {
+        width: 363px; } }
+    @media (max-width: 568px) {
+      .section-address-content img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px; } }
+
+.section-address-content-input form {
+  font-size: 14px;
+  color: #3D1101; }
+
+.section-address-content-input input {
+  width: 458px;
+  height: 32px;
+  padding: 0 5px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  box-shadow: inset 0px 1px 0px 0px #ECECEC;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #4A4A4A; }
+  @media (max-width: 768px) {
+    .section-address-content-input input {
+      width: 363px; } }
+  @media (max-width: 568px) {
+    .section-address-content-input input {
+      width: 100%; } }
+
+.section-address-content-input-Vegetarian input {
+  border: 1px solid #9B9B9B; }
+
+.section-address-content-input-Vegetarian .input-yesno {
+  width: 16px;
+  height: 18px; }
+
+.section-address-content-input-Vegetarian .input-submit {
+  float: right;
+  width: 70px;
+  height: 32px;
+  margin-top: 58px;
+  margin-left: 11px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #F56C23;
+  border-radius: 3px;
+  border: none; }
+
+.section-address-content-input-Vegetarian .input-reset {
+  float: right;
+  width: 70px;
+  height: 32px;
+  margin-top: 58px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  border: none; }
